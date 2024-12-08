@@ -541,12 +541,29 @@ nav .fa-solid {
 
 
 
+.img-fluid{
+    max-height: 450px;
+}
+
+.fluidboy{
+    margin-top: 200px;
+}
+
 @media only screen and (max-width:800px) {
 
 
+.img-fluid{
+    max-height: 250px;
+}
+
+.fluidboy{
+    margin-top: 60px;
+    margin-left: -70px;
+}
+    
     #header {
 
-        background-image: url(../public/images/phone-background.png);
+        background-image: url(../public/images/home-bg.jpg);
     }
 
     .header-text {

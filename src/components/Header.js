@@ -60,12 +60,12 @@ const Header = () => {
               </h1>
             </div>
 
-            <div style={{ marginTop: "200px" }}>
+            <div className="fluidboy">
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                // style={{ maxHeight: "450px" }}
               />
             </div>
           </div>
